@@ -1,6 +1,16 @@
 # Типа шпаргалка
 [Ссылка на хабр](https://habr.com/ru/companies/ruvds/articles/599929/)
 ----
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
+
 ## Командная строка
 ### Просмотр файлов
 ls
