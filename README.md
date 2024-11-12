@@ -47,12 +47,12 @@ git add .
 git add --all
 
 ### Исключение файла
-git restore --staged #file
+git restore --staged %имя файла%
 ### Исключение всех файлов
 git restore --staged .
 
 ### Откатить недобавленый файл до последнего изменения в ветке
-git restore #file
+git restore %имя файла%
 
 ### Выполнить коммит
 git commit -m "Сообщение"
