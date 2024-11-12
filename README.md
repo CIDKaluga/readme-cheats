@@ -47,12 +47,12 @@ git add .
 git add --all
 
 ### Исключение файла
-git restore --staged <file>
+git restore --staged #file
 ### Исключение всех файлов
 git restore --staged .
 
 ### Откатить недобавленый файл до последнего изменения в ветке
-git restore <file>
+git restore #file
 
 ### Выполнить коммит
 git commit -m "Сообщение"
@@ -60,8 +60,8 @@ git commit -m "Сообщение"
 ### Дополнить прошлый коммит 
 git commit --amend --no-edit
 
-### Откатить коммит до какого-то изменения (commit hash - последний)
-git reset --hard <commit hash>
+### Откатить коммит до какого-то изменения (commithash - последний)
+git reset --hard #commithash
 
 ### История изменений
 git log
