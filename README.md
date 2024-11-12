@@ -49,6 +49,9 @@ git add --all
 ### Выполнить коммит
 git commit -m "Сообщение"
 
+### Дополнить прошлый коммит 
+git commit --amend --no-edit
+
 ### История изменений
 git log
 
