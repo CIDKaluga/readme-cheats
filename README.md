@@ -61,14 +61,17 @@ git commit -m "Сообщение"
 git commit --amend --no-edit
 
 ### Откатить коммит до какого-то изменения (commithash - последний)
-git reset --hard #commithash
+git reset --hard %commithash%
 
 ### История изменений
 git log
 
-### История изменений + История изменений в staged
+### История изменений
 git diff
+### История изменений в staged
 git diff --staged
+### История изменений в коммитах
+git diff %commithash% %commithash%
 
 ### Создание новой ветки и переход в неё
 git branch -M main
