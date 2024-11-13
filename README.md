@@ -66,6 +66,10 @@ git reset --hard #commithash
 ### История изменений
 git log
 
+### История изменений + История изменений в staged
+git diff
+git diff --staged
+
 ### Создание новой ветки и переход в неё
 git branch -M main
 
